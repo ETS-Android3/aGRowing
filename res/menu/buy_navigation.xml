@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dairy"
+            android:title="Γαλακτωκομικα"/>
+        <item
+            android:id="@+id/oils"
+            android:title="Ελαια"/>
+        <item
+            android:id="@+id/fruits"
+            android:title="Φρουτα"/>
+        <item
+            android:id="@+id/vegatables"
+            android:title="Λαχανικα"/>
+    </group>
+</menu>

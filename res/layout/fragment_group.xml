@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ομαδες"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ενταξου σε μια υπαρχουσα ομαδα στην περιοχη σου,η δημηιουργησε μια καινουργια ωστε να συμμετασχουν αλλοι παραγωγοι της περιοχης"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Δημιουργια Ομαδας!"
+                android:id="@+id/create_team"
+                android:background="@drawable/mybutton"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:text="Διαθεσιμες Ομαδες: 8"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:text="Περιοχη: Αρτα"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/group_rv"
+                android:layout_margin="10dp"
+                android:padding="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/filterG"
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/filters_icon"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="6dp"
+        app:fabSize="normal" />
+
+</RelativeLayout>

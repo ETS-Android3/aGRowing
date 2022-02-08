@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">aGRowing</string>
+
+    <string name="nav_drawer_op">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string-array name="products_type">
+        <item>Φρουτα</item>
+        <item>Γαλακτοκομικα</item>
+        <item>Λαχανικα</item>
+        <item>Ελαια</item>
+    </string-array>
+    <string-array name="products_list">
+        <item>Μηλα</item>
+        <item>Πορτοκαλια</item>
+        <item>Αχλαδια</item>
+        <item>Μπανανες</item>
+    </string-array>
+
+    <string-array name="order_by">
+        <item>Καινούργιες-Παλαιότερες</item>
+        <item>Παλαιότερες-Καινούργιες</item>
+        <item>Σε εξελιξη</item>
+        <item>Ολοκληρωμένες</item>
+    </string-array>
+</resources>

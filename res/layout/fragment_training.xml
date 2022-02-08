@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/teaching_im" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:text="Γινε Εκπαιδευτης"
+        android:textColor="#ffffff"
+        android:id="@+id/become_trainer"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mybutton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:text="Βρες Εκπαιδευτη"
+        android:textColor="#ffffff"
+        android:id="@+id/find_trainer"
+        android:background="@drawable/mybutton"/>
+
+</LinearLayout>

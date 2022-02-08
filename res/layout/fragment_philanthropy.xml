@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/p_image"
+        android:src="@drawable/philanthropy1"
+        android:scaleType="centerCrop"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Κανε μια δωρεα!"
+        android:layout_below="@+id/p_image"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:id="@+id/p_title"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Σαν παραγωγος:"
+        android:id="@+id/p_grower_t"
+        android:layout_below="@id/p_title"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eχεις την επιλογη στην επεξεργασια προιωντων να δωρισεις ενα μερος της παραγωγης σου σε ατομα που το εχουν αναγκη!"
+        android:layout_below="@+id/p_grower_t"
+        android:id="@+id/p_grower"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Σαν αγοραστης:"
+        android:id="@+id/p_buyer_t"
+        android:layout_below="@id/p_grower"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Εχεις την επιλογη στην αγορα προιωντων να δωρισεις ενα μερος της αγορας σου σε ατομα που το εχουν αναγκη!"
+        android:layout_below="@+id/p_buyer_t"
+        android:layout_margin="5dp"
+        android:padding="10dp"/>
+
+</RelativeLayout>
